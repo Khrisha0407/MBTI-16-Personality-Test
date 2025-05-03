@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header.hero {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  text-align: center;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.question {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.question p {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #ff477e;
+}
+
+button {
+  background: #ff477e;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e8416e;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #ff477e;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Personality Type</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html { scroll-behavior: smooth; }
+
+    .hero {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      padding: 40px 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .highlight {
+      background-color: #fff3f8;
+      border: 3px solid #ff477e;
+      border-radius: 12px;
+    }
+
+    .group-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+      color: #444;
+      margin-top: 60px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .personality-card {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease;
+    }
+
+    .personality-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .personality-card img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .personality-card h2 {
+      margin: 5px 0;
+      color: #ff477e;
+      font-size: 18px;
+    }
+
+    .personality-card h3 {
+      margin: 0;
+      font-size: 15px;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .personality-card p {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #666;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ff477e;
+      font-weight: 500;
+    }
+
+    center {
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Your Personality Type</h1>
+  <p>Explore what your result means</p>
+</header>
+<div class="group-title">Analysts</div><div class="card-grid">
+        <div id="INTJ" class="personality-card">
+          <img src="images/INTJ.png" alt="Architect image">
+          <h2>Architect</h2>
+          <h3>INTJ</h3>
+          <p>Imaginative and strategic thinkers, with a plan for everything.</p>
+        </div>
+        
+        <div id="INTP" class="personality-card">
+          <img src="images/INTP.png" alt="Logician image">
+          <h2>Logician</h2>
+          <h3>INTP</h3>
+          <p>Innovative inventors with an unquenchable thirst for knowledge.</p>
+        </div>
+        
+        <div id="ENTJ" class="personality-card">
+          <img src="images/ENTJ.png" alt="Commander image">
+          <h2>Commander</h2>
+          <h3>ENTJ</h3>
+          <p>Bold, imaginative and strong-willed leaders, always finding a way – or making one.</p>
+        </div>
+        
+        <div id="ENTP" class="personality-card">
+          <img src="images/ENTP.png" alt="Debater image">
+          <h2>Debater</h2>
+          <h3>ENTP</h3>
+          <p>Smart and curious thinkers who cannot resist an intellectual challenge.</p>
+        </div>
+        </div><div class="group-title">Diplomats</div><div class="card-grid">
+        <div id="INFJ" class="personality-card">
+          <img src="images/INFJ.png" alt="Advocate image">
+          <h2>Advocate</h2>
+          <h3>INFJ</h3>
+          <p>Quiet and mystical, yet very inspiring and tireless idealists.</p>
+        </div>
+        
+        <div id="INFP" class="personality-card">
+          <img src="images/INFP.png" alt="Mediator image">
+          <h2>Mediator</h2>
+          <h3>INFP</h3>
+          <p>Poetic, kind and altruistic people, always eager to help a good cause.</p>
+        </div>
+        
+        <div id="ENFJ" class="personality-card">
+          <img src="images/ENFJ.png" alt="Protagonist image">
+          <h2>Protagonist</h2>
+          <h3>ENFJ</h3>
+          <p>Charismatic and inspiring leaders, able to mesmerize their listeners.</p>
+        </div>
+        
+        <div id="ENFP" class="personality-card">
+          <img src="images/ENFP.png" alt="Campaigner image">
+          <h2>Campaigner</h2>
+          <h3>ENFP</h3>
+          <p>Enthusiastic, creative and sociable free spirits, who always find a reason to smile.</p>
+        </div>
+        </div><div class="group-title">Sentinels</div><div class="card-grid">
+        <div id="ISTJ" class="personality-card">
+          <img src="images/ISTJ.png" alt="Logistician image">
+          <h2>Logistician</h2>
+          <h3>ISTJ</h3>
+          <p>Practical and fact-minded individuals, whose reliability cannot be doubted.</p>
+        </div>
+        
+        <div id="ISFJ" class="personality-card">
+          <img src="images/ISFJ.png" alt="Defender image">
+          <h2>Defender</h2>
+          <h3>ISFJ</h3>
+          <p>Very dedicated and warm protectors, always ready to defend their loved ones.</p>
+        </div>
+        
+        <div id="ESTJ" class="personality-card">
+          <img src="images/ESTJ.png" alt="Executive image">
+          <h2>Executive</h2>
+          <h3>ESTJ</h3>
+          <p>Excellent administrators, unsurpassed at managing things—or people.</p>
+        </div>
+        
+        <div id="ESFJ" class="personality-card">
+          <img src="images/ESFJ.png" alt="Consul image">
+          <h2>Consul</h2>
+          <h3>ESFJ</h3>
+          <p>Extraordinarily caring, social and popular people, always eager to help.</p>
+        </div>
+        </div><div class="group-title">Explorers</div><div class="card-grid">
+        <div id="ISTP" class="personality-card">
+          <img src="images/ISTP.png" alt="Virtuoso image">
+          <h2>Virtuoso</h2>
+          <h3>ISTP</h3>
+          <p>Bold and practical experimenters, masters of all kinds of tools.</p>
+        </div>
+        
+        <div id="ISFP" class="personality-card">
+          <img src="images/ISFP.png" alt="Adventurer image">
+          <h2>Adventurer</h2>
+          <h3>ISFP</h3>
+          <p>Flexible and charming artists, always ready to explore and experience something new.</p>
+        </div>
+        
+        <div id="ESTP" class="personality-card">
+          <img src="images/ESTP.png" alt="Entrepreneur image">
+          <h2>Entrepreneur</h2>
+          <h3>ESTP</h3>
+          <p>Smart, energetic and very perceptive people, who truly enjoy living on the edge.</p>
+        </div>
+        
+        <div id="ESFP" class="personality-card">
+          <img src="images/ESFP.png" alt="Entertainer image">
+          <h2>Entertainer</h2>
+          <h3>ESFP</h3>
+          <p>Spontaneous, energetic and enthusiastic people—life is never boring around them.</p>
+        </div>
+        </div>
+<center>
+  <h2><a href="index.html">← Retake the Quiz</a></h2>
+</center>
+
+<script>
+  window.onload = function () {
+    const type = window.location.hash.substring(1);
+    if (type) {
+      const el = document.getElementById(type);
+      if (el) {
+        el.classList.add("highlight");
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+</script>
+</body>
+</html>
